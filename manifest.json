@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "No Most Viewed",
+    "version": "1.0",
+    "description": "No Most Viewed",
+    "page_action": {
+        "default_icon": "icon.png"
+    },
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    },
+
+    "permissions" : [
+        "tabs",
+        "http://*/*"
+            ]
+}
