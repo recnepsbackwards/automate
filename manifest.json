@@ -1,17 +1,13 @@
 {
-    "manifest_version": 2,
-    "name": "No Most Viewed",
-    "version": "1.0",
-    "description": "No Most Viewed",
-    "page_action": {
-        "default_icon": "icon.png"
-    },
-    "chrome_url_overrides": {
-        "newtab": "newtab.html"
-    },
-
-    "permissions" : [
-        "tabs",
-        "http://*/*"
-            ]
+  "name": "Automate",
+  "version": "0.1",
+  "manifest_version" : 2,
+  "description": "Automate",
+  "background" : {
+    "scripts" : ["content_script.js"]
+  },
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": ["activeTab"]
 }
